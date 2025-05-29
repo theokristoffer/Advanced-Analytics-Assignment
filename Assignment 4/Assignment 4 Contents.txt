@@ -1,0 +1,4 @@
+- Python script to convert JSON file to GraphML
+- Python script to retrieve Jaccard Similarity scores between Apps based on games
+- JSON file output for 15 app community with weighted relationships for community mining
+- JSON file output for 15 app community with only ownership relationships for community mining
