@@ -15,7 +15,6 @@ class ImageData(Dataset):
         self.image_paths = []
         self.labels = []
 
-        # Traverse directories and get image paths and labels
         for folder in os.listdir(data_dir):
             folder_path = os.path.join(data_dir, folder)
             if os.path.isdir(folder_path):
